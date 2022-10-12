@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+  </head>
+  <body>
+    <div>
+    <form id="yourFormId">
+        <label for="name">What do you want to refund?</label>
+        <input type="text" name="name" placeholder="what" id="name" required>
+        <label for="debtor">What is your name?</label>
+        <input type="text" name="debtor" placeholder="who" id="debtor" required>
+        <label for="amount">How much?</label>
+        <input type="number" name="amount" placeholder="how much" id="amount" required>
+        <label for="debtor">Choose the date?</label>
+        <input type="date" name="dueDate" placeholder="Due date" id="dueDate" required> 
+    </form>
+</div>
+<div class="btn">
+    <button id="getRefund">Get Refund</button>
+    <button id="post">Create Refund</button>
+</div>
+    <ul id="list"></ul>
+  <script src="testGetMethod.js"></script>
+  <script src="testPostMethod.js"></script>
+</body>
+</html>

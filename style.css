@@ -1,0 +1,57 @@
+div {
+    display: block;
+    margin: 10px 10px 10px 10px;
+}
+
+input[type=text], input[type=number], input[type=date] {
+    display: block;
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    background-color: #8cf3cd;
+    color: rgb(25, 1, 1);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border: none;
+  }
+  label {
+    color: rgb(17, 90, 70);
+    font-size: large;
+
+  }
+
+  #getRefund {
+    background-color: #55cba6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  #getRefund:hover {
+    background-color: rgb(14, 90, 88);
+    color: white;
+  }
+
+  #post {
+    background-color: #55cba6; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  #post:hover {
+    background-color: rgb(14, 90, 88);
+    color: white;
+  }
